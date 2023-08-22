@@ -15,7 +15,7 @@ int _putchar(int value, int count)
 	if (value < 0)
 	{
 	current_digit = -value;
-	putchar('_');
+	putchar('-');
 	count++;
 	}
 

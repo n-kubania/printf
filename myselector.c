@@ -23,6 +23,10 @@ int (*specifier_selector(char specifier))(va_list)
 	{
 	return (&print_decimal);
 	}
+	else if (specifier == 'i')
+	{
+		return(&print_decimal);
+	}
 	return (0);
 }
 

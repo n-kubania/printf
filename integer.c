@@ -1,4 +1,4 @@
-#include "printf.h"
+#include "main.h"
 
 /**
  * print_integer - Printing of an integer.

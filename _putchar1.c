@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 /**
  * _putchar - counts characters and prints integer digits.

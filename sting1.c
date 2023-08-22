@@ -1,6 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 
 /**

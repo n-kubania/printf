@@ -13,3 +13,4 @@ int print_integer(va_list ars)
 	putchar(value);
 	return (1);
 }
+

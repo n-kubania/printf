@@ -23,7 +23,7 @@ int (*specifier_selector(char specifier))(va_list)
 	}
 	else if (specifier == 'i')
 	{
-	return (&print_decimal);
+	return (&print_integer);
 	}
 	else 
 	{

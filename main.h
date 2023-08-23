@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <limits.h>
 #include <stdarg.h>
+#include <unistd.h>
 
 int _putchar(int value, int count);
 int _printf(const char *format, ...);

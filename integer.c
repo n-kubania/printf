@@ -10,7 +10,7 @@ int print_integer(va_list ars)
 {
 	int value = va_arg(ars, int);
 
-	putchar(value);
+	_putchar(value, 0);
 	return (1);
 }
 

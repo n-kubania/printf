@@ -1,6 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 /**
  * specifier_selector - Makes a selection of the appropriate
@@ -22,6 +20,10 @@ int (*specifier_selector(char specifier))(va_list)
 	else if (specifier == 'd')
 	{
 	return (&print_decimal);
+	}
+	else if (specifier == 'i')
+	{
+		return(&print_decimal);
 	}
 	return (0);
 }

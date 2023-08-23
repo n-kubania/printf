@@ -1,6 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 /**
  * _printf - is the function that helps implement printf function.

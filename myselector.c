@@ -25,6 +25,10 @@ int (*specifier_selector(char specifier))(va_list)
 	{
 	return (&print_decimal);
 	}
+	else 
+	{
+	return (NULL);
+	}
 	return (0);
 }
 

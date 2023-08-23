@@ -1,6 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 /**
  * print_decimal - An integer is printed by the function.
@@ -17,3 +15,4 @@ int print_decimal(va_list args)
 
 	return (count);
 }
+

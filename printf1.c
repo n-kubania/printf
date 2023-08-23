@@ -1,5 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _printf - is the function that helps implement printf function.
@@ -47,3 +46,4 @@ int _printf(const char *format, ...)
 
 	return (character_count);
 }
+

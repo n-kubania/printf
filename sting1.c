@@ -1,6 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 
 /**
@@ -22,3 +20,4 @@ int print_string(va_list args)
 	}
 	return (count);
 }
+

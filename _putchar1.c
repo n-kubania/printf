@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 /**
  * _putchar - counts characters and prints integer digits.
@@ -15,7 +14,7 @@ int _putchar(int value, int count)
 	if (value < 0)
 	{
 	current_digit = -value;
-	putchar('_');
+	putchar('-');
 	count++;
 	}
 
@@ -26,3 +25,4 @@ int _putchar(int value, int count)
 	putchar(current_digit % 10 + '0');
 	return (count + 1);
 }
+

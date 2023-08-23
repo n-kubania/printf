@@ -1,6 +1,4 @@
-#include <stdarg.h>
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
 /**
  * print_char - character printing.
@@ -15,3 +13,4 @@ int print_char(va_list args)
 	putchar(character);
 	return (1);
 }
+

@@ -25,3 +25,4 @@ int _putchar(int value, int count)
 	putchar(current_digit % 10 + '0');
 	return (count + 1);
 }
+
